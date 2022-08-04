@@ -1,0 +1,29 @@
+.services {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0px 14px 30px rgb(0 0 0 / 7%);
+    position: relative;
+    overflow: hidden;
+    transition: transform 450ms;
+    height: 300px;
+    width: 350px;
+}
+
+.img-full {
+    max-width: 95%;
+    height: auto;
+    width: 100%;
+    border: none;
+    
+}
+
+.services:hover {
+    transform: scale(1.08);
+    opacity: 1;
+    background-color: lightgray;
+}
+
+.services__text {
+    text-align: center;
+}

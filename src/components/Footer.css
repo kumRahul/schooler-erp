@@ -1,0 +1,15 @@
+.footer-bottom-area {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #303743;
+    padding: 20px 0;
+    text-align: center !important;
+    height: 65px;
+    z-index:1;
+}
+
+.text-light-gray {
+    color: #a7a8b4;
+}

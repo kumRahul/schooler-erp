@@ -1,0 +1,42 @@
+.navbar {
+    background: #F7F8FC;
+    z-index: 5;
+    height: 100px;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+
+.navbar__fixed {
+    position: fixed !important;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+}
+
+.navbar__header {
+    margin-left: 50px;
+    margin-right: 100px;
+    justify-content: space-evenly;
+    flex: 1;
+    
+}
+
+.navbar__link {
+    float: left;
+    display: flex;
+    margin-right: 25px;
+    text-decoration: none;
+    color: #2F2B2B;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 26px;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+
+.navbar__logo {
+    margin-left: 100px;
+    height: 52px;
+    max-width: 95%;
+    object-fit: contain;
+}

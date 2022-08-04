@@ -1,0 +1,125 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: 20px;
+    background: linear-gradient(45deg, #EC3237, #ED2D33) !important;
+}
+
+/* .header__logo {
+    height: 50px;
+    width: 100px;
+    margin-right: 100px;
+    margin-left: 50px;
+} */
+
+.mrr-10 {
+  margin-right: 10px;
+}
+
+.text-primary-color {
+  color: #ed2e34;
+}
+
+.fa, .fas {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+}
+
+.fa, .fas, .far, .fal, .fad, .fab {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+.header__phone {
+  margin-left:85px;
+  margin-right: 20px;
+}
+
+.phone__logo, .location__logo {
+  color: white;
+  margin-right: 10px;
+}
+
+.header__profile {
+  color: white;
+}
+
+.phone-text, .header__text {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.header__pipe {
+  color: white;
+}
+
+.header__addressLogo {
+    height: 50px;
+    margin-left: 250px;
+    object-fit: contain;
+}
+
+.header__location {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #EC3237;
+    margin-left: 20px;
+    margin-right:220px;
+}
+
+.header__login {
+    margin-left: 50px;
+    margin-right: 100px;
+    text-decoration: none;
+}
+
+.login__text {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.header__login > :hover {
+  color: white;
+}
+
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon {
+  color: #4f4f4f;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scrolled {
+  background-color: #fff;
+}
+
+/* An optional height of the navbar AFTER scroll */
+.navbar.navbar-scroll.navbar-scrolled {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.header__social {
+  margin-right: 10px;
+}
+
+.header__user {
+  margin-left: 8px;
+}
